@@ -50,198 +50,198 @@
 
     <h2>Commonly Used Laplace Transformations</h2>
 
-    <h3>Basic Functions</h3>
+    <h3><u>Basic Functions</u></h3>
     <ul>
-        <li><strong>Unit Step Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Unit Step Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = 1 \)</li>
                 <li>\( F(s) = 1 / s \)</li>
             </ul>
         </li>
-        <li><strong>Exponential Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Exponential Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = e^{at} \)</li>
                 <li>\( F(s) = 1 / (s - a) \)</li>
             </ul>
         </li>
-        <li><strong>Constant Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Constant Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = c \)</li>
                 <li>\( F(s) = \frac{c}{s} \)</li>
             </ul>
         </li>
-        <li><strong>Raised Exponential Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Raised Exponential Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = (at)^{n}e^{-bt} \)</li>
                 <li>\( F(s) = \frac{n!}{(s+b)^{n+1}} \)</li>
             </ul>
         </li>
-        <li><strong>Power Function (\( t^n \))</strong>
-            <ul>
+        <li class="paddedli"><strong>Power Function (\( t^n \))</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = t^n \)</li>
                 <li>\( F(s) = \frac{n!}{s^{n+1}} \)</li>
             </ul>
         </li>
     </ul>
 
-    <h3>Polynomial Functions</h3>
+    <h3><u>Polynomial Functions</u></h3>
     <ul>
-        <li><strong>Power Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Power Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = t^{n} \)</li>
                 <li>\( F(s) = n! / s^{n+1} \)</li>
             </ul>
         </li>
-        <li><strong>Delta Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Delta Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \delta(t) \)</li>
                 <li>\( F(s) = 1 \)</li>
             </ul>
         </li>
-        <li><strong>Heaviside Step Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Heaviside Step Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = u(t-a) \)</li>
                 <li>\( F(s) = e^{-as} \frac{1}{s} \)</li>
             </ul>
         </li>
-        <li><strong>Ramp Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Ramp Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = t \)</li>
                 <li>\( F(s) = \frac{1}{s^2} \)</li>
             </ul>
         </li>
-        <li><strong>Parabolic Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Parabolic Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \frac{t^2}{2} \)</li>
                 <li>\( F(s) = \frac{2}{s^3} \)</li>
             </ul>
         </li>
-        <li><strong>Quadratic Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Quadratic Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = at^2 + bt + c \)</li>
                 <li>\( F(s) = \frac{2a}{s^3} + \frac{b}{s^2} + \frac{c}{s} \)</li>
             </ul>
         </li>
-        <li><strong>Sawtooth Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Sawtooth Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \text{sgn}(t) \)</li>
                 <li>\( F(s) = \frac{2}{s^2} \)</li>
             </ul>
         </li>
-        <li><strong>Gaussian Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Gaussian Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = e^{-at^2} \)</li>
                 <li>\( F(s) = \sqrt{\frac{\pi}{a}} e^{\frac{s^2}{4a}} \)</li>
             </ul>
         </li>
-        <li><strong>Logarithmic Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Logarithmic Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \log(t) \)</li>
                 <li>\( F(s) = -\frac{\log(s) + \gamma}{s} \)</li>
             </ul>
         </li>
-        <li><strong>Exponential Decay</strong>
-            <ul>
+        <li class="paddedli"><strong>Exponential Decay</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = e^{-at} \)</li>
                 <li>\( F(s) = \frac{1}{s + a} \)</li>
             </ul>
         </li>
-        <li><strong>Exponential Growth</strong>
-            <ul>
+        <li class="paddedli"><strong>Exponential Growth</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = e^{at} \)</li>
                 <li>\( F(s) = \frac{1}{s - a} \)</li>
             </ul>
         </li>
-        <li><strong>Unit Impulse Function (Dirac's Delta)</strong>
-            <ul>
+        <li class="paddedli"><strong>Unit Impulse Function (Dirac's Delta)</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \delta(t-a) \)</li>
                 <li>\( F(s) = e^{-as} \)</li>
             </ul>
         </li>
-        <li><strong>Sinc Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Sinc Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \text{sinc}(t) \)</li>
                 <li>\( F(s) = \int_{-\infty}^{\infty} e^{-st} \text{sinc}(t) dt \)</li>
             </ul>
         </li>
-        <li><strong>Heaviside Function with Exponential</strong>
-            <ul>
+        <li class="paddedli"><strong>Heaviside Function with Exponential</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = u(t) e^{-at} \)</li>
                 <li>\( F(s) = \frac{1}{s + a} \)</li>
             </ul>
         </li>
     </ul>
 
-    <h3>Trigonometric Functions</h3>
+    <h3><u>Trigonometric Functions</u></h3>
     <ul>
-        <li><strong>Sine Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Sine Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \sin(at) \)</li>
                 <li>\( F(s) = a / (s^2 + a^2) \)</li>
             </ul>
         </li>
-        <li><strong>Cosine Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Cosine Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \cos(at) \)</li>
                 <li>\( F(s) = s / (s^2 + a^2) \)</li>
             </ul>
         </li>
-        <li><strong>Hyperbolic Sine Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Hyperbolic Sine Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \sinh(at) \)</li>
                 <li>\( F(s) = a / (s^2 - a^2) \)</li>
             </ul>
         </li>
-        <li><strong>Hyperbolic Cosine Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Hyperbolic Cosine Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \cosh(at) \)</li>
                 <li>\( F(s) = s / (s^2 - a^2) \)</li>
             </ul>
         </li>
-        <li><strong>Tangent Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Tangent Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \tan(at) \)</li>
                 <li>\( F(s) = \text{N/A} \)</li>
             </ul>
         </li>
-        <li><strong>Cotangent Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Cotangent Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \cot(at) \)</li>
                 <li>\( F(s) = \text{N/A} \)</li>
             </ul>
         </li>
-        <li><strong>Secant Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Secant Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \sec(at) \)</li>
                 <li>\( F(s) = \text{N/A} \)</li>
             </ul>
         </li>
-        <li><strong>Cosecant Function</strong>
-            <ul>
+        <li class="paddedli"><strong>Cosecant Function</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \csc(at) \)</li>
                 <li>\( F(s) = \text{N/A} \)</li>
             </ul>
         </li>
-        <li><strong>Cosine with Phase Shift</strong>
-            <ul>
+        <li class="paddedli"><strong>Cosine with Phase Shift</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \cos(a + bt) \)</li>
                 <li>\( F(s) = \frac{s - a}{s^2 + b^2} \)</li>
             </ul>
         </li>
-        <li><strong>Sine with Phase Shift</strong>
-            <ul>
+        <li class="paddedli"><strong>Sine with Phase Shift</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = \sin(a + bt) \)</li>
                 <li>\( F(s) = \frac{b}{s^2 + b^2} \)</li>
             </ul>
         </li>
-        <li><strong>Rectified Sine</strong>
-            <ul>
+        <li class="paddedli"><strong>Rectified Sine</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = |\sin(t)| \)</li>
                 <li>\( F(s) = \frac{1}{s^2+1} + \frac{1}{s(s^2+1)} \)</li>
             </ul>
         </li>
-        <li><strong>Rectified Cosine</strong>
-            <ul>
+        <li class="paddedli"><strong>Rectified Cosine</strong>
+            <ul class="paddedul">
                 <li>\( f(t) = |\cos(t)| \)</li>
                 <li>\( F(s) = \frac{s}{s^2+1} + \frac{1}{s(s^2+1)} \)</li>
             </ul>
